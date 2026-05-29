@@ -24,7 +24,7 @@ No* buscar(Hashmap *ht, Aluno X);
 int main (){
 
     Aluno A1 = {"Otavio", 2025010165};
-    Aluno A2 = {"Francisco", 2025010225};
+    Aluno A2 = {"Jonathan", 2025010225};
     Hashmap *ht = malloc(sizeof(Hashmap));
 
     for (int i = 0; i < 10; i++){
