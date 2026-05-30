@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+    
+    O Hash é uma estrutura de dados criada para ter complexidade O(1) em operações de busca e inserção.
+
+    Para que a Hash funcione, é necessário ter essas coisas:
+        - Uma chave (normalmente, um char ou int).
+        - Uma função hash, que retorna um valor inteiro que será usado como índice na tabela hash.
+        - E a tabela hash, onde cada posição da tabela armazena o dado correspondendente a essa chave.
+        
+*/ 
+
 typedef struct Aluno{
     char nome[100];
     int matricula;
