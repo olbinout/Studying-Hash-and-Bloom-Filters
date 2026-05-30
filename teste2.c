@@ -87,6 +87,7 @@ No* buscar(Hashmap *ht, Aluno X){
         }
         atual = atual->prox; // Serve para percorrer a lista encadeada
     }
-    return NULL; 
+    return NULL; //Alteração de reubismar para colaborador :)
+    
 }
 
